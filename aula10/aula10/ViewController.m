@@ -31,6 +31,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //Jean
     
     NSString *caminho = [[NSBundle mainBundle] pathForResource:@"musica" ofType:@"mp3"];
     audio = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:caminho] error:NULL];
