@@ -1,4 +1,2 @@
 iOS
 ===
-
-Andre
