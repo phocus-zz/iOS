@@ -35,7 +35,7 @@
     
     NSString *caminho = [[NSBundle mainBundle] pathForResource:@"musica" ofType:@"mp3"];
     audio = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:caminho] error:NULL];
-    audio.numberOfLoops = 0;
+    audio.numberOfLoops = 10;
     
     UISlider *slider = [[UISlider alloc] initWithFrame:CGRectMake(0, 0, 200, 10)];
     [slider setMaximumValue:1];
